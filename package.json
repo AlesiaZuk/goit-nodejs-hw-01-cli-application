@@ -1,0 +1,29 @@
+{
+  "name": "goit-nodejs-hw-01-cli-application",
+  "version": "1.0.0",
+  "description": "Создание консольных приложений",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlesiaZuk/goit-nodejs-hw-01-cli-application.git"
+  },
+  "keywords": [],
+  "author": "Alesia Žuk <alesiasimonait@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlesiaZuk/goit-nodejs-hw-01-cli-application/issues"
+  },
+  "homepage": "https://github.com/AlesiaZuk/goit-nodejs-hw-01-cli-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
+  }
+}
